@@ -35,3 +35,6 @@
 //     }
 //   }
 // }
+Cypress.Commands.add('oppenHomePage',()=>{
+    cy.visit('/')
+})
